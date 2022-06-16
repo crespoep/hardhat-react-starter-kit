@@ -1,4 +1,5 @@
 # Hardhat Boilerplate
+
 ## Quick start
 
 The first things you need to do are cloning this repository and installing its
@@ -31,7 +32,7 @@ npm install
 npm start
 ```
 
-> Note: There's [an issue in `ganache-core`](https://github.com/trufflesuite/ganache-core/issues/650) that can make the `npm install` step fail. 
+> Note: There's [an issue in `ganache-core`](https://github.com/trufflesuite/ganache-core/issues/650) that can make the `npm install` step fail.
 >
 > If you see `npm ERR! code ENOLOCAL`, try running `npm ci` instead of `npm install`.
 

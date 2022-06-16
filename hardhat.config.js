@@ -10,19 +10,19 @@ module.exports = {
   solidity: "0.8.0",
   networks: {
     hardhat: {
-      chainId: 31337
-    }
+      chainId: 31337,
+    },
   },
   watcher: {
     compilation: {
       tasks: ["compile"],
       files: ["./contracts"],
-      verbose: true
+      verbose: true,
     },
     test: {
       tasks: ["test"],
       files: ["./test/**/*", "./contracts"],
-      verbose: true
-    }
-  }
+      verbose: true,
+    },
+  },
 };
