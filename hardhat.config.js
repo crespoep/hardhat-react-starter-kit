@@ -1,5 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
-// require("hardhat-watcher");
+require("hardhat-watcher");
 // require('./scripts/accounts');
 require("./tasks/faucet");
 
